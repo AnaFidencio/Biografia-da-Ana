@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1{
+    text-align:center;
+    color:rgb(177, 65, 117);
+
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 45px;
+}
+p{
+    text-align:center;
+    color: rgb(2, 1, 1);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+body{
+    background-image: url("fundo.jpeg");
+    background-color: #cccc;
+}
+img{
+    width: 275px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    }

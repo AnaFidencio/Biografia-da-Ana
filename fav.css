@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.lista{
+    font-size: 40px;
+    padding: 50px;
+}
+body{
+    background-image: url("fundo.jpeg");
+    background-color: #cccc;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    }
+.c1{
+        text-align:center;
+    }
+.cta{
+        display: inline-block;
+        text-decoration: none;
+        background-image:linear-gradient(45deg,rgb(25, 136, 103) 0%, rgb(30, 77, 74) 99%, rgb(18, 73, 57) 100%);
+        padding: 12px 15px;
+        border-radius: 8px;
+        color:antiquewhite
+    }
+.cta:hover{
+        background:linear-gradient(45deg, #d462b7 0%, #9b5697 99%, #b395ac);
+    
+    }
+    
+.btn{
+       padding-left: 875px;
+    }

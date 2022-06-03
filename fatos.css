@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    color: rgb(175, 91, 80);
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.lista{
+    font-size: 40px;
+    padding: 50px;
+}
+body{
+    background-image: url("fundo.jpeg");
+    background-color: #cccc;
+}
+img{
+    width: 600px;
+
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    }
+.cta{
+        display: inline-block;
+        text-decoration: none;
+        background-image:linear-gradient(45deg,rgb(136, 25, 25) 0%, rgb(194, 97, 72) 99%, rgb(182, 68, 68) 100%);
+        padding: 12px 15px;
+        border-radius: 8px;
+        color:antiquewhite
+    }
+.cta:hover{
+        background:linear-gradient(45deg, #62b9d4 0%, #1feaf8 99%, #011f27);
+    
+    }
+    
+.btn{
+        padding-left: 180px;
+   
+    }
